@@ -1,5 +1,3 @@
-from turtle import width
-
 import streamlit as st
 
 from src.database.db import check_teacher_exists, create_teacher, teacher_login, get_teacher_subjects, get_attendance_for_teacher
